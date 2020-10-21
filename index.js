@@ -5,7 +5,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   //when user goes to the link
-  res.send("Hello World! this is \nDicky the bot");
+  res.send("Hello fag! this is \nDicky the bot, khaled is my dad");
 });
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`)); //listens for user to acces the website
@@ -27,7 +27,7 @@ bot.once("ready", () => {
   console.log("Prefix:" + prefix);
   console.log("Version:" + version);
   console.log("______________________");
-  bot.user.setActivity("Khaled is my dad");
+  bot.user.setActivity("with khaled's balls");
 });
 
 bot.on("message", async (msg) => {
@@ -50,14 +50,14 @@ bot.on("message", async (msg) => {
 
     if (args[0] === "ping") {
       //example command
-      msg.author.send("Hey look you DMed me (and yeah im alive)");
+      msg.author.send("living through this misery");
     }
 
     if (args[0] === "sad") {
       msg.channel.send("https://cdn.discordapp.com/attachments/768495894227714111/768505693379493918/image0.jpg");
-      
+
       return;
-    
+
     }
     return;
   }
@@ -65,13 +65,20 @@ bot.on("message", async (msg) => {
   if (args[0] === "ping") {
     msg.author.send("https://cdn.discordapp.com/attachments/768495894227714111/768505693379493918/image0.jpg")
     //example command
-    msg.channel.send("Hey look it works im alive");
+    msg.channel.send("living through this misery");
     return;
   }
 
-  if(args[0] === "bruh") {
-    
+  if (args[0] === "bruh") {
+
     msg.channel.send("https://cdn.discordapp.com/attachments/768495894227714111/768504445381378049/image0.jpg");
+
+    return;
+  }
+
+  if (args[0] === "sad") {
+
+    msg.channel.send("https://cdn.discordapp.com/attachments/768495894227714111/768561592425775155/video0.mov");
 
     return;
   }
