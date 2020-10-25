@@ -63,7 +63,7 @@ bot.on("message", async (msg) => {
   }
   //put all server the comands here
   if (args[0] === "ping") {
-    msg.author.send("https://cdn.discordapp.com/attachments/768495894227714111/768505693379493918/image0.jpg")
+   
     //example command
     msg.channel.send("living through this misery");
     return;
